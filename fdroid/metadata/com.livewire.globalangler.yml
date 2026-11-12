@@ -1,0 +1,33 @@
+Categories:
+  - Games
+License: Apache-2.0
+AuthorName: Elijah Wougamon
+SourceCode: https://github.com/mrnomaguow/global-angler
+IssueTracker: https://github.com/mrnomaguow/global-angler/issues
+
+AutoName: Global Angler
+Description: |-
+  Global Angler is an offshore fishing game and live weather app. Pick a
+  fishing spot, cast a line, and reel in fish with the real conditions for
+  that spot: forecast from Open-Meteo, swell and waves from the Open-Meteo
+  Marine API, and real tides from NOAA for the Florida Keys. If live data is
+  unavailable the app says so and shows an offline estimate instead of
+  pretending the data is live. The game has 19 locations, boats and a fleet
+  to upgrade, an aquarium, tournaments, quests, and achievements.
+
+RepoType: git
+Repo: https://github.com/mrnomaguow/global-angler
+
+Builds:
+  - versionName: 1.0.1
+    versionCode: 2
+    commit: v1.0.1
+    subdir: android
+    gradle:
+      - yes
+    output: app/build/outputs/apk/release/app-release-unsigned.apk
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: 1.0.1
+CurrentVersionCode: 2

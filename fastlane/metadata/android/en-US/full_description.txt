@@ -1,0 +1,18 @@
+Global Angler is an offshore fishing game and live weather app. Pick a
+fishing spot, cast a line, and reel in fish — with the real conditions for
+the spot you are fishing.
+
+Live data for every spot:
+- Forecast from Open-Meteo: temperature, wind, and weather
+- Swell and waves from the Open-Meteo Marine API
+- Real tides from NOAA for the Florida Keys (Key West)
+
+If live data is unavailable, the app says so and shows an offline estimate
+instead of pretending the data is live.
+
+The game: casting with a power meter, bite windows, streaks, boats and a
+fleet to upgrade, an aquarium to fill, tournaments, quests, and achievements
+across 19 locations around the world.
+
+Global Angler is free and open source. It has no accounts, no ads, and no
+analytics. Your save stays on your phone.

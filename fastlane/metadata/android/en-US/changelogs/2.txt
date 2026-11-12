@@ -1,0 +1,1 @@
+Fixed stuttering when confetti falls on a catch — the confetti now draws on its own lightweight canvas with fewer particles.
